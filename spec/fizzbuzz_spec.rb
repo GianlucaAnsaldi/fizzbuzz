@@ -16,4 +16,8 @@ describe "fizzbuzz" do
   it "returns number when passed any other number" do
     expect(fizzbuzz(19)).to eq 19
   end
+
+  it "returns 'fizz' when passed 6" do
+    expect(fizzbuzz(6)).to eq "fizz"
+  end
 end
